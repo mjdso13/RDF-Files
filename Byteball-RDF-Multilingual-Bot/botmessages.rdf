@@ -1,10 +1,6 @@
 <?xml version="1.0"?>
-<rdf:RDF 
-	xmlns="http://www.w3.org/2000/01/rdf-schema#" 
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" 
-	xmlns:base="https://raw.githubusercontent.com/n-ric-v/RDF-Files/master/Byteball-RDF-Multilingual-Bot/botmessages.rdf"
->
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:base="https://raw.githubusercontent.com/n-ric-v/RDF-Files/master/Byteball-RDF-Multilingual-Bot/botmessages.rdf">
+
 <rdfs:Class rdf:ID="botmessages" />
 <rdfs:Class rdf:ID="welcome">
 	<rdfs:SubClassOf rdf:resource="#botmessages"/>
