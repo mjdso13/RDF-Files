@@ -62,7 +62,7 @@ A bot is a smart agent or an autonomous program. A smart agent is able to intera
 The Byteball multilingual bot uses RDF standard to interact with humans.
 
 RDF stands for « Resource Description Framework ». It's a data model designed to describe web ressources with metadata. It allows to process automaticaly data with autonomous agents and facilitate human-machine communications because readble by both. It's a Semantic Web standard supported by the W3C and by Tim Berner-Lee, the World Wide Web father.
-"
+
 	</rdfs:label>
 	<rdfs:label xml:lang="fr">
 
