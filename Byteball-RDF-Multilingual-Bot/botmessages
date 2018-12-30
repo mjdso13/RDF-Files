@@ -117,7 +117,7 @@ I don't know this language, human!
 	</rdfs:label>
 	<rdfs:label xml:lang="fr">
 
-Je ne connais pas cette langue, humain !"
+Je ne connais pas cette langue, humain !
 
 	</rdfs:label>
 </rdf:Description>
@@ -126,12 +126,12 @@ Je ne connais pas cette langue, humain !"
 <rdf:Description rdf:ID="unknownCmd">
 	<rdfs:label xml:lang="en">
 
-I don't understand what you want, human!"
+I don't understand what you want, human!
 
 	</rdfs:label>
 	<rdfs:label xml:lang="fr">
 
-Je ne comprends pas ce que vous voulez, humain !"
+Je ne comprends pas ce que vous voulez, humain !
 
 	</rdfs:label>
 </rdf:Description>
