@@ -2,59 +2,59 @@
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
 
 <rdf:Description rdf:ID="welcome">
-	<rdfs:label xml:lang="en" rdfs:value="
+	<rdfs:label xml:lang="en">
 
 Welcome to the Byteball RDF multilingual bot, human!
 
 Why the bot cross the road?
 
-"/>
-	<rdfs:label xml:lang="fr" rdfs:value="
+	</rdfs:label>
+	<rdfs:label xml:lang="fr">
 
 Bienvenu sur le bot multilingue Byteball RDF, humain !
 
 Pourquoi le bot traverse la route ?
 
-"/>
+	</rdfs:label>
 </rdf:Description>
 
-
 <rdf:Description rdf:ID="menu">
-	<rdfs:label xml:lang="en" rdfs:value="
+	<rdfs:label xml:lang="en">
 
 [» More explainations about me 🤖 «](command:explain)
 [» Go to the homepage 🏠 «](command:main)
 [» Change language 🗣 «](command:languages)
 
-"/>
-	<rdfs:label xml:lang="fr" rdfs:value="
+	</rdfs:label>
+	<rdfs:label xml:lang="fr">
 
 [» Plus d'explication à mon sujet 🤖 «](command:explain)
 [» Allez à l'accueil 🏠 «](command:main)
 [» Changez la langue 🗣 «](command:languages)
 
-"/>
+	</rdfs:label>
 </rdf:Description>
 
 <rdf:Description  rdf:ID="main">
-	<rdfs:label xml:lang="en" rdfs:value="
+	<rdfs:label xml:lang="en">
 
 Why the bot cross the road? To help, human!
 
 It's my nature.
 
-"/>
-	<rdfs:label xml:lang="fr" rdfs:value="
+	</rdfs:label>
+	<rdfs:label xml:lang="fr">
 
 Pourquoi le bot traverse la route ? Pour aider, humain!
 
 C'est ma raison d'être.
 
-"/>
+	</rdfs:label>
 </rdf:Description>
 
 <rdf:Description rdf:ID="explain">
-	<rdfs:label xml:lang="en" rdfs:value="
+	<rdfs:label xml:lang="en">
+
 I'm a Byteball multilingual bot, human.
 
 A bot is a smart agent or an autonomous program. A smart agent is able to interact with both humans and smart agents. A chatbot like Byteball bots are conversational agents. Byteball bots have limited capacities but offer useful services to Byteball users.
@@ -63,8 +63,9 @@ The Byteball multilingual bot uses RDF standard to interact with humans.
 
 RDF stands for « Resource Description Framework ». It's a data model designed to describe web ressources with metadata. It allows to process automaticaly data with autonomous agents and facilitate human-machine communications because readble by both. It's a Semantic Web standard supported by the W3C and by Tim Berner-Lee, the World Wide Web father.
 "
-/>
-	<rdfs:label xml:lang="fr" rdfs:value="
+	</rdfs:label>
+	<rdfs:label xml:lang="fr">
+
 Je suis un bot multilingue Byteball, humain.
 
 Un bot est un agent intelligent ou un programme autonome. Un agent intelligent est capable d'interagir avec des humains et d'autres agents intelligents. Un chatbot comme les bots Byteball sont des agents conversationels. Les bots Byteball ont des capacités limitées mais offrent des services utiles aux utilisateurs Byteball.
@@ -73,40 +74,66 @@ Le bot multilingue Byteball utilise le standard RDF pour interagir avec les huma
 
 RDF signifie «Resource Description Framework». Il s'agit d'un modèle de données conçu pour décrire les ressources Web avec des métadonnées. Il permet de traiter automatiquement les données avec des agents autonomes et facilite les communications homme-machine car compréhensible par les deux. Il s'agit d'un standard du Web Sémantique pris en charge par le W3C et encouragé par Tim Berner-Lee, le père du Web.
 
-"/>
+	</rdfs:label>
 </rdf:Description>
 
 <rdf:Description rdf:ID="languages">
-	<rdfs:label xml:lang="en" rdfs:value="
+	<rdfs:label xml:lang="en">
+
 Choose your interface language:
 
 [» 🇫🇷 Français «](command:setLanguage#fr)
 
-"/>
-	<rdfs:label xml:lang="fr" rdfs:value="
+	</rdfs:label>
+	<rdfs:label xml:lang="fr">
+
 Choisissez la langue de l'interface :
 
 [» 🇬🇧 English «](command:setLanguage#en)
 
-"/>
+	</rdfs:label>
 </rdf:Description>
 
 <rdf:Description rdf:ID="languageChanged">
-	<rdfs:label xml:lang="en" rdfs:value="The interface language have been changed with success, human!"/>
-	<rdfs:label xml:lang="fr" rdfs:value="La langue d'interface a été changé avec succès, humain !"/>
+	<rdfs:label xml:lang="en">
+
+The interface language have been changed with success, human!
+
+	</rdfs:label>
+	<rdfs:label xml:lang="fr">
+
+La langue d'interface a été changé avec succès, humain !
+
+	</rdfs:label>
 </rdf:Description>
 
 
 
 <rdf:Description rdf:ID="unknownLanguage">
-	<rdfs:label xml:lang="en" rdfs:value="I don't know this language, human!"/>
-	<rdfs:label xml:lang="fr" rdfs:value="Je ne connais pas cette langue, humain !"/>
+	<rdfs:label xml:lang="en">
+
+I don't know this language, human!
+
+	</rdfs:label>
+	<rdfs:label xml:lang="fr">
+
+Je ne connais pas cette langue, humain !"
+
+	</rdfs:label>
 </rdf:Description>
 
 
 <rdf:Description rdf:ID="unknownCmd">
-	<rdfs:label xml:lang="en" rdfs:value="I don't understand what you want, human!"/>
-	<rdfs:label xml:lang="fr" rdfs:value="Je ne comprends pas ce que vous voulez, humain !"/>
+	<rdfs:label xml:lang="en">
+
+I don't understand what you want, human!"
+
+	</rdfs:label>
+	<rdfs:label xml:lang="fr">
+
+Je ne comprends pas ce que vous voulez, humain !"
+
+	</rdfs:label>
 </rdf:Description>
 
 </rdf:RDF> 
