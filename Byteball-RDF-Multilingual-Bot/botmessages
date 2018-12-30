@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
 
-<rdfs:Class rdf:ID="botmessages" />
-<rdfs:Class rdf:ID="welcome">
-	<rdfs:SubClassOf rdf:resource="#botmessages"/>
+<rdf:Description rdf:about="#welcome">
 	<rdfs:label rdf:value="welcome" />
 	<rdfs:literal xml:lang="en" rdfs:value="
 
@@ -19,11 +17,10 @@ Bienvenu sur le bot multilingue Byteball RDF, humain !
 Pourquoi le bot traverse la route ?
 
 "/>
-</rdfs:Class>
+</rdf:Description>
 
-<rdfs:Class rdf:ID="menu">	
-	<rdfs:label rdfs:value="menu" />
-	<rdfs:SubClassOf rdf:resource="#botmessages"/>
+
+<rdf:Description rdf:about="#menu">
 	<rdfs:literal xml:lang="en" rdfs:value="
 
 [» More explainations about me 🤖 «](command:explain)
@@ -38,11 +35,9 @@ Pourquoi le bot traverse la route ?
 [» Changez la langue 🗣 «](command:languages)
 
 "/>
-</rdfs:Class>
+</rdf:Description>
 
-<rdfs:Class rdf:ID="main">	
-	<rdfs:label rdfs:value="main" />
-	<rdfs:SubClassOf rdf:resource="#botmessages"/>
+<rdf:Description rdf:about="#main">
 	<rdfs:literal xml:lang="en" rdfs:value="
 
 Why the bot cross the road? To help, human!
@@ -57,11 +52,9 @@ Pourquoi le bot traverse la route ? Pour aider, humain!
 C'est ma raison d'être.
 
 "/>
-</rdfs:Class>
+</rdf:Description>
 
-<rdfs:Class rdf:ID="explain">	
-	<rdfs:label rdfs:value="explain" />
-	<rdfs:SubClassOf rdf:resource="#botmessages"/>
+<rdf:Description rdf:about="#explain">
 	<rdfs:literal xml:lang="en" rdfs:value="
 I'm a Byteball multilingual bot, human.
 
@@ -82,11 +75,9 @@ Le bot multilingue Byteball utilise le standard RDF pour interagir avec les huma
 RDF signifie «Resource Description Framework». Il s'agit d'un modèle de données conçu pour décrire les ressources Web avec des métadonnées. Il permet de traiter automatiquement les données avec des agents autonomes et facilite les communications homme-machine car compréhensible par les deux. Il s'agit d'un standard du Web Sémantique pris en charge par le W3C et encouragé par Tim Berner-Lee, le père du Web.
 
 "/>
-</rdfs:Class>
+</rdf:Description>
 
-<rdfs:Class rdf:ID="languages">	
-	<rdfs:label rdfs:value="languages" />
-	<rdfs:SubClassOf rdf:resource="#botmessages"/>
+<rdf:Description rdf:about="#languages">
 	<rdfs:literal xml:lang="en" rdfs:value="
 Choose your interface language:
 
@@ -99,24 +90,24 @@ Choisissez la langue de l'interface :
 [» 🇬🇧 English «](command:setLanguage#en)
 
 "/>
-</rdfs:Class>
-<rdfs:Class rdf:ID="languageChanged">	
-	<rdfs:label rdfs:value="languageChanged" />
-	<rdfs:SubClassOf rdf:resource="#botmessages"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="#languageChanged">
 	<rdfs:literal xml:lang="en" rdfs:value="The interface language have been changed with success, human!"/>
 	<rdfs:literal xml:lang="fr" rdfs:value="La langue d'interface a été changé avec succès, humain !"/>
-</rdfs:Class>
-<rdfs:Class rdf:ID="unknownLanguage">	
-	<rdfs:label rdfs:value="unknownLanguage" />
-	<rdfs:SubClassOf rdf:resource="#botmessages"/>
+</rdf:Description>
+
+
+
+<rdf:Description rdf:about="#unknownLanguage">
 	<rdfs:literal xml:lang="en" rdfs:value="I don't know this language, human!"/>
 	<rdfs:literal xml:lang="fr" rdfs:value="Je ne connais pas cette langue, humain !"/>
-</rdfs:Class>
-<rdfs:Class rdf:ID="unknownCmd">	
-	<rdfs:label rdfs:value="unknownCmd" />
-	<rdfs:SubClassOf rdf:resource="#botmessages"/>
+</rdf:Description>
+
+
+<rdf:Description rdf:about="#unknownCmd">
 	<rdfs:literal xml:lang="en" rdfs:value="I don't understand what you want, human!"/>
 	<rdfs:literal xml:lang="fr" rdfs:value="Je ne comprends pas ce que vous voulez, humain !"/>
-</rdfs:Class>
+</rdf:Description>
 
 </rdf:RDF> 
